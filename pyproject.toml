@@ -11,7 +11,7 @@ authors = [
 ]
 description = "Python library for confidence sequences, sequential testing, e-processes, e-values, and game-theoretic probability."
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10" # but needs version lower than 3.12 since numpy==1.24.4 in requirements.txt will not work since 'distutils' was completely removed from Python 3.12.
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
