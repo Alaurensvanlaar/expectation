@@ -1,3 +1,5 @@
 ipykernel
 seaborn
 statsmodels
+arch
+scikit-learn
